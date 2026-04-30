@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "collection-streaming-services",
+    "title": "Streaming Services",
+    "folders": [
+      {
+        "id": "folder-streaming-services-netflix",
+        "title": "Netflix",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/netflix.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/netflix.jpg",
+        "catalogSources": [
+          {
+            "id": "source-netflix-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "netflix_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-netflix-series",
+            "addonId": "com.ultramax",
+            "catalogId": "netflix_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-disney",
+        "title": "Disney+",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Disney.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Disney.jpg",
+        "catalogSources": [
+          {
+            "id": "source-disney-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "disney_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-disney-series",
+            "addonId": "com.ultramax",
+            "catalogId": "disney_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-prime-video",
+        "title": "Prime Video",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Prime.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/prime.jpg",
+        "catalogSources": [
+          {
+            "id": "source-amazon-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "amazon_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-amazon-series",
+            "addonId": "com.ultramax",
+            "catalogId": "amazon_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-hbo-max",
+        "title": "HBO / Max",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/HBO.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/HBO.jpg",
+        "catalogSources": [
+          {
+            "id": "source-hbo-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "hbo_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-hbo-series",
+            "addonId": "com.ultramax",
+            "catalogId": "hbo_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-apple-tv",
+        "title": "Apple TV+",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Apple.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Apple.jpg",
+        "catalogSources": [
+          {
+            "id": "source-apple-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "apple_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-apple-series",
+            "addonId": "com.ultramax",
+            "catalogId": "apple_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-paramount",
+        "title": "Paramount+",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Paramount.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/paramount.jpg",
+        "catalogSources": [
+          {
+            "id": "source-paramount-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "paramount_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-paramount-series",
+            "addonId": "com.ultramax",
+            "catalogId": "paramount_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-hulu",
+        "title": "Hulu",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Hulu.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Hulu.jpg",
+        "catalogSources": [
+          {
+            "id": "source-hulu-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "hulu_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-hulu-series",
+            "addonId": "com.ultramax",
+            "catalogId": "hulu_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-peacock",
+        "title": "Peacock",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Peacock.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Peacock.jpg",
+        "catalogSources": [
+          {
+            "id": "source-peacock-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "peacock_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-peacock-series",
+            "addonId": "com.ultramax",
+            "catalogId": "peacock_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-streaming-services-shudder",
+        "title": "Shudder",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "id": "source-shudder-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "shudder_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-shudder-series",
+            "addonId": "com.ultramax",
+            "catalogId": "shudder_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-streaming-services-crunchyroll",
+        "title": "Crunchyroll",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "",
+        "catalogSources": [
+          {
+            "id": "source-crunchyroll-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "crunchyroll_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-crunchyroll-series",
+            "addonId": "com.ultramax",
+            "catalogId": "crunchyroll_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-trending-popular",
+    "title": "Trending & Popular",
+    "folders": [
+      {
+        "id": "folder-trending-popular-core-trending",
+        "title": "Core Trending",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Trending.jpg",
+        "catalogSources": [
+          {
+            "id": "source-trending-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "trending_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-trending-series",
+            "addonId": "com.ultramax",
+            "catalogId": "trending_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-trending-popular-popular-now",
+        "title": "Popular Now",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Trending.jpg",
+        "catalogSources": [
+          {
+            "id": "source-popular-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "popular_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-popular-series",
+            "addonId": "com.ultramax",
+            "catalogId": "popular_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-top-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "top_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-top-series",
+            "addonId": "com.ultramax",
+            "catalogId": "top_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-2236",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_2236",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-1198",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_1198",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-69",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_69",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-trending-popular-in-theatres-airing",
+        "title": "In Theatres & Airing",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Trending.jpg",
+        "catalogSources": [
+          {
+            "id": "source-now-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "now_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-airing-series",
+            "addonId": "com.ultramax",
+            "catalogId": "airing_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-ontheair-series",
+            "addonId": "com.ultramax",
+            "catalogId": "ontheair_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-new-latest",
+    "title": "New & Latest",
+    "folders": [
+      {
+        "id": "folder-new-latest-fresh-releases",
+        "title": "Fresh Releases",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Trending.jpg",
+        "catalogSources": [
+          {
+            "id": "source-mdb-86934",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_86934",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-960",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_960",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-1176",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_1176",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-genres",
+    "title": "Genres",
+    "folders": [
+      {
+        "id": "folder-genres-action",
+        "title": "Action",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_action.png",
+        "catalogSources": [
+          {
+            "id": "source-action-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "action_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-action-series",
+            "addonId": "com.ultramax",
+            "catalogId": "action_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-comedy",
+        "title": "Comedy",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_comedy.png",
+        "catalogSources": [
+          {
+            "id": "source-comedy-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "comedy_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-comedy-series",
+            "addonId": "com.ultramax",
+            "catalogId": "comedy_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-83497",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_83497",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-horror",
+        "title": "Horror",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_horror.png",
+        "catalogSources": [
+          {
+            "id": "source-horror-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "horror_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-horror-series",
+            "addonId": "com.ultramax",
+            "catalogId": "horror_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-102554",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_102554",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-2410",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_2410",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-theme-zombie",
+            "addonId": "com.ultramax",
+            "catalogId": "theme_zombie",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-theme-serialkiller",
+            "addonId": "com.ultramax",
+            "catalogId": "theme_serialkiller",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-sci-fi",
+        "title": "Sci-Fi",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_scifi.png",
+        "catalogSources": [
+          {
+            "id": "source-scifi-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "scifi_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-scifi-series",
+            "addonId": "com.ultramax",
+            "catalogId": "scifi_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-thriller",
+        "title": "Thriller",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_thriller.png",
+        "catalogSources": [
+          {
+            "id": "source-thriller-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "thriller_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-thriller-series",
+            "addonId": "com.ultramax",
+            "catalogId": "thriller_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-crime",
+        "title": "Crime",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_crime.png",
+        "catalogSources": [
+          {
+            "id": "source-crime-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "crime_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-crime-series",
+            "addonId": "com.ultramax",
+            "catalogId": "crime_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-drama",
+        "title": "Drama",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_drama.png",
+        "catalogSources": [
+          {
+            "id": "source-drama-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "drama_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-drama-series",
+            "addonId": "com.ultramax",
+            "catalogId": "drama_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-romance",
+        "title": "Romance",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_romance.jpg",
+        "catalogSources": [
+          {
+            "id": "source-romance-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "romance_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-romance-series",
+            "addonId": "com.ultramax",
+            "catalogId": "romance_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-mystery",
+        "title": "Mystery",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_mystery.png",
+        "catalogSources": [
+          {
+            "id": "source-mystery-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "mystery_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mystery-series",
+            "addonId": "com.ultramax",
+            "catalogId": "mystery_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-fantasy",
+        "title": "Fantasy",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_family.jpg",
+        "catalogSources": [
+          {
+            "id": "source-fantasy-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "fantasy_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-fantasy-series",
+            "addonId": "com.ultramax",
+            "catalogId": "fantasy_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-family",
+        "title": "Family",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_family.jpg",
+        "catalogSources": [
+          {
+            "id": "source-family-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "family_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-family-series",
+            "addonId": "com.ultramax",
+            "catalogId": "family_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-animation",
+        "title": "Animation",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_animation.jpg",
+        "catalogSources": [
+          {
+            "id": "source-animation-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "animation_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-animation-series",
+            "addonId": "com.ultramax",
+            "catalogId": "animation_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-documentary",
+        "title": "Documentary",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_documentary.jpg",
+        "catalogSources": [
+          {
+            "id": "source-documentary-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "documentary_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-documentary-series",
+            "addonId": "com.ultramax",
+            "catalogId": "documentary_series",
+            "type": "series",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-84677",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_84677",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-84403",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_84403",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-anime",
+        "title": "Anime",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_anime.png",
+        "catalogSources": [
+          {
+            "id": "source-anime-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "anime_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-anime-series",
+            "addonId": "com.ultramax",
+            "catalogId": "anime_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-genres-bollywood",
+        "title": "Bollywood",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/drama.jpg",
+        "catalogSources": [
+          {
+            "id": "source-bollywood-movies",
+            "addonId": "com.ultramax",
+            "catalogId": "bollywood_movies",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-bollywood-series",
+            "addonId": "com.ultramax",
+            "catalogId": "bollywood_series",
+            "type": "series",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-themed-curated",
+    "title": "Themed & Curated",
+    "folders": [
+      {
+        "id": "folder-themed-curated-mind-benders",
+        "title": "Mind-Benders",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/elucid_mindfuck.png",
+        "catalogSources": [
+          {
+            "id": "source-mdb-3892",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_3892",
+            "type": "movie",
+            "showInHome": false
+          },
+          {
+            "id": "source-mdb-3923",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_3923",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-studios-a-h",
+    "title": "Studios A-H",
+    "folders": [
+      {
+        "id": "folder-studios-a-h-dc",
+        "title": "DC",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/DC.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/DC.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-dc",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_dc",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-a-h-a24",
+        "title": "A24",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/A24.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/A24.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-a24",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_a24",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-a-h-blumhouse",
+        "title": "Blumhouse",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Blumhouse.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Blumhouse.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-blumhouse",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_blumhouse",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-a-h-dreamworks",
+        "title": "DreamWorks",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Dreamworks.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Dreamworks.jpg",
+        "catalogSources": [
+          {
+            "id": "source-mdb-3928",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_3928",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-studios-i-p",
+    "title": "Studios I-P",
+    "folders": [
+      {
+        "id": "folder-studios-i-p-marvel",
+        "title": "Marvel",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Marvel.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Marvel.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-marvel",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_marvel",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-i-p-pixar",
+        "title": "Pixar",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Pixar.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Pixar.jpg",
+        "catalogSources": [
+          {
+            "id": "source-mdb-3918",
+            "addonId": "com.ultramax",
+            "catalogId": "mdb_3918",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-i-p-paramount",
+        "title": "Paramount",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Paramount.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/paramount.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-paramount",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_paramount",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-i-p-lionsgate",
+        "title": "Lionsgate",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Lion.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Lion.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-lionsgate",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_lionsgate",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-i-p-new-line",
+        "title": "New Line",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Newline.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Newline.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-newline",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_newline",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-studios-q-z",
+    "title": "Studios Q-Z",
+    "folders": [
+      {
+        "id": "folder-studios-q-z-warner-bros",
+        "title": "Warner Bros",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Warner.jpeg",
+        "catalogSources": [
+          {
+            "id": "source-studio-wb",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_wb",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-studios-q-z-universal",
+        "title": "Universal",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/universal.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-universal",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_universal",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "folder-studios-q-z-sony-pictures",
+        "title": "Sony Pictures",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/Sony.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/Sony.png",
+        "catalogSources": [
+          {
+            "id": "source-studio-sony",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_sony",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      },
+      {
+        "id": "folder-studios-q-z-20th-century",
+        "title": "20th Century",
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "focusGifUrl": "https://max-streams.gleeze.com/images/20th.gif",
+        "coverImageUrl": "https://max-streams.gleeze.com/images/20th.jpg",
+        "catalogSources": [
+          {
+            "id": "source-studio-20thcentury",
+            "addonId": "com.ultramax",
+            "catalogId": "studio_20thcentury",
+            "type": "movie",
+            "showInHome": false
+          }
+        ],
+        "focusGifEnabled": true
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  }
+]
