@@ -844,60 +844,42 @@
         "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/crunchyroll.jpg"
       },
       {
-        "id": "98492222-9a5b-4b64-9e8c-d9596e3ebcc1",
-        "title": "Shudder ",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": null,
-            "title": null,
-            "sortBy": null,
-            "tmdbId": null,
-            "addonId": "aio-metadata",
-            "filters": null,
-            "provider": "addon",
-            "catalogId": "tmdb.discover.movie.streaming.shudder",
-            "mediaType": null,
-            "tmdbSourceType": null
-          },
-          {
-            "type": "series",
-            "genre": null,
-            "title": null,
-            "sortBy": null,
-            "tmdbId": null,
-            "addonId": "aio-metadata",
-            "filters": null,
-            "provider": "addon",
-            "catalogId": "tmdb.discover.series.streaming.shudder",
-            "mediaType": null,
-            "tmdbSourceType": null
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "landscape",
-        "coverEmoji": null,
-        "focusGifUrl": "https://nuvioapp.space/uploads/covers/1a03bb2e-9478-4ede-93f4-69a1a306837a.gif",
-        "heroVideoUrl": null,
-        "titleLogoUrl": null,
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/99e24ce1.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "genre": null,
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.shudder"
-          },
-          {
-            "type": "series",
-            "genre": null,
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.shudder"
-          }
-        ],
-        "focusGifEnabled": true,
-        "heroBackdropUrl": null
-      },
+  "id": "collections.streaming.shudder",
+  "title": "Shudder",
+  "sources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.movie.streaming.shudder"
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.series.streaming.shudder"
+    }
+  ],
+  "hideTitle": false,
+  "tileShape": "LANDSCAPE",
+  "coverEmoji": "🎬",
+  "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/shudder.gif",
+  "heroVideoUrl": null,
+  "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/shudder.png",
+  "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/shudder.png",
+  "catalogSources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.movie.streaming.shudder"
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.series.streaming.shudder"
+    }
+  ],
+  "focusGifEnabled": true,
+  "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/shudder.jpg"
+}
       {
         "id": "collections.streaming.discovery-plus",
         "title": "Discovery Plus",
