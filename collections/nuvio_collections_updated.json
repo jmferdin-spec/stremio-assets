@@ -3287,96 +3287,87 @@
         "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/backdrop/pixar.jpg"
       },
       {
-        "id": "9d332bf6-4a53-4b65-b012-73b4f6f5bce3",
-        "title": "A24",
-        "sources": [
-          {
-            "provider": "addon",
-            "addonId": "aio-metadata",
-            "type": "movie",
-            "catalogId": "tmdb.discover.movie.studio.a24",
-            "genre": null,
-            "tmdbSourceType": null,
-            "title": null,
-            "tmdbId": null,
-            "mediaType": null,
-            "sortBy": null,
-            "filters": null
-          },
-          {
-            "provider": "addon",
-            "addonId": "com.ultramax",
-            "type": "movie",
-            "catalogId": "studio_a24",
-            "genre": null,
-            "tmdbSourceType": null,
-            "title": null,
-            "tmdbId": null,
-            "mediaType": null,
-            "sortBy": null,
-            "filters": null
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "landscape",
-        "coverEmoji": null,
-        "focusGifUrl": "https://max-streams.gleeze.com/images/A24.gif",
-        "heroVideoUrl": null,
-        "titleLogoUrl": null,
-        "coverImageUrl": "https://max-streams.gleeze.com/images/A24.jpg",
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "type": "movie",
-            "catalogId": "tmdb.discover.movie.studio.a24",
-            "genre": null
-          },
-          {
-            "addonId": "com.ultramax",
-            "type": "movie",
-            "catalogId": "studio_a24",
-            "genre": null
-          }
-        ],
-        "focusGifEnabled": true,
-        "heroBackdropUrl": null
-      },
-      {
-        "id": "2b55c228-d75d-4f85-8d2a-8672735c228c",
-        "title": "Blumhouse ",
-        "sources": [
-          {
-            "provider": "addon",
-            "addonId": "aio-metadata",
-            "type": "movie",
-            "catalogId": "tmdb.discover.movie.studio.blumhouse",
-            "genre": null,
-            "tmdbSourceType": null,
-            "title": null,
-            "tmdbId": null,
-            "mediaType": null,
-            "sortBy": null,
-            "filters": null
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "landscape",
-        "coverEmoji": null,
-        "focusGifUrl": "https://max-streams.gleeze.com/images/Blumhouse.gif",
-        "heroVideoUrl": null,
-        "titleLogoUrl": null,
-        "coverImageUrl": "https://max-streams.gleeze.com/images/Blumhouse.jpg",
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "type": "movie",
-            "catalogId": "tmdb.discover.movie.studio.blumhouse",
-            "genre": null
-          }
-        ],
-        "focusGifEnabled": true,
-        "heroBackdropUrl": null
-      },
+  "id": "collections.studios.a24",
+  "title": "A24",
+  "sources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "provider": "addon",
+      "catalogId": "tmdb.discover.movie.studio.a24"
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "provider": "addon",
+      "catalogId": "tmdb.discover.series.studio.a24"
+    }
+  ],
+  "hideTitle": false,
+  "tileShape": "LANDSCAPE",
+  "coverEmoji": "🏰",
+  "focusGifUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/focused/a24.gif",
+  "heroVideoUrl": null,
+  "titleLogoUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/title/a24.png",
+  "coverImageUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/cover/a24.png",
+  "catalogSources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.movie.studio.a24",
+      "genre": null
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.series.studio.a24",
+      "genre": null
+    }
+  ],
+  "focusGifEnabled": true,
+  "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/backdrop/a24.jpg"
+},
+{
+  "id": "collections.studios.blumhouse",
+  "title": "Blumhouse",
+  "sources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "provider": "addon",
+      "catalogId": "tmdb.discover.movie.studio.blumhouse"
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "provider": "addon",
+      "catalogId": "tmdb.discover.series.studio.blumhouse"
+    }
+  ],
+  "hideTitle": false,
+  "tileShape": "LANDSCAPE",
+  "coverEmoji": "🏰",
+  "focusGifUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/focused/blumhouse.gif",
+  "heroVideoUrl": null,
+  "titleLogoUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/title/blumhouse.png",
+  "coverImageUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/cover/blumhouse.png",
+  "catalogSources": [
+    {
+      "type": "movie",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.movie.studio.blumhouse",
+      "genre": null
+    },
+    {
+      "type": "series",
+      "addonId": "aio-metadata",
+      "catalogId": "tmdb.discover.series.studio.blumhouse",
+      "genre": null
+    }
+  ],
+  "focusGifEnabled": true,
+  "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/jmferdin-spec/stremio-assets@main/collections/studios/backdrop/blumhouse.jpg"
+},
       {
         "id": "collections.studios.cartoon-network",
         "title": "Cartoon Network",
