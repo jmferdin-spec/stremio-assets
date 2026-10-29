@@ -19,7 +19,7 @@ from urllib.request import urlopen
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent
 DEFAULT_COLLECTIONS_ROOT = REPO_ROOT / "collections"
-DEFAULT_REPO_SLUG = "luckynumb3rs/stremio-perfect-setup"
+DEFAULT_REPO_SLUG = "jmferdin-spec/stremio-assets"
 PURGE_BASE = "https://purge.jsdelivr.net/gh"
 
 
